@@ -1,0 +1,527 @@
+.one{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    background-color: #0078ff;
+    
+}
+
+.one .on{
+    color: #fff;
+}
+
+
+
+
+.size{
+    font-size: 24px;
+}
+
+.size1{
+    font-size: 16px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+.overlay{
+    background-color: rgba(8, 8, 8, 0.589);
+    height: 800px;
+}
+.main-head{
+    height: 800px;
+    background-image: url(../devfolio/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.nav-item .nav-link{
+    color: #fff !important ;
+    position: relative;
+    font-weight: 700;   
+    overflow: hidden;
+        
+} 
+
+.nav-item .nav-link::after{
+    content: "___";
+    width: 5px;
+    height: 10px;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    right: 155%;
+    transition: all 0.3s ;
+   
+}
+
+.nav-item .nav-link:hover::after{ 
+
+    right: 75%;
+}
+.navbar .navbar-toggler{
+    border: none;
+}
+
+
+@media (max-width:992px) {
+
+
+
+    .navbar {
+
+        background-color: #fff ;
+        
+    }
+    .navbar-brand{
+        color: #007bff !important;
+        font-weight: 700;
+    }
+    .nav-item .nav-link{
+        color: #007bff !important ;
+        font-weight: 700;
+        padding-left: 0px;
+    }
+    .container{
+
+        padding: 16px !important;
+        
+       
+     }
+
+}
+
+
+
+.caption h1{
+    font-size: 70px;
+
+}
+.caption p{
+    font-size: 46px;
+}
+
+@media (max-width:1000px){
+    .caption h1{
+        font-size: 50px;
+
+    }
+    .caption p{
+        font-size: 30px;
+    }
+}
+
+#about{
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+.about1{
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    
+}
+.skill .caption1 .title-s{
+    font-weight: 600;
+}
+.skill .caption1 span{
+    color: #4e4e4e;
+    font-weight: 400; 
+}
+
+@media (max-width:1200px){
+    .caption1{
+        padding-left: 15px !important;
+    }
+}
+
+
+
+
+
+
+.bold{
+    font-size: 20px;
+    font-weight:800;
+}
+.head1 {
+    font-weight: 600;
+    position: relative;
+}
+
+.head1::before{
+    
+
+        content: "";
+        width: 20%;
+        height: 3px;
+        background-color: #007bff;
+        position: absolute;
+        top: 55%;
+        left: 0;
+
+}
+
+.about-me p{
+    font-size: 20px ;
+    color: #4e4e4e;
+    font-weight: 300; 
+} 
+
+
+.pull-right{
+    float: right;
+}
+
+
+
+.text3 h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+.text3 p{
+    position: relative;
+}
+.text3 p::before{
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #007bff;
+    position: absolute;
+    top: 160%;
+    left: 49%;
+
+
+}
+
+.descri .descri1{
+
+    background-color: #fff;
+    box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.1);
+   
+
+}
+
+
+.ica{
+    padding: 20px;
+    border: 8px #007bff solid;
+    transition: all 1s;
+}
+
+
+.descri1:hover .ica {
+    color: white;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 8px #cde1f8;
+}
+
+#numbers{
+    background-image: url(../devfolio/post-3.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+#numbers .number{
+    background-color: #007bffad;
+}
+.num1 .icn{
+    color: #fff;
+    padding: 16px;
+    border: 10px rgba(255, 255, 255, 0.699) solid;
+
+}
+.num1 span{
+    color: #fff;
+    font-size: 28px;
+}
+
+.num1 p{
+    color: #fff;
+    font-size:18px;
+    font-weight:400;
+}
+
+
+#portfolio .text4 h1{
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+.text4 p{
+    position: relative;
+}
+
+.text4 p::before{
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color:#0078ff;
+    position: absolute;
+    top: 155%;
+    left: 49%;
+
+}
+
+
+#portfolio{
+    background-color: #f8f9fa;
+}
+
+
+#portfolio .part{
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 13px 10px -15px #4e4e4e9c;
+    overflow: hidden;
+   
+}
+
+#portfolio .part .work-img { 
+    
+    overflow: hidden;
+    
+}
+#portfolio .part .work-img img{
+    transition: all 1s;
+}
+
+#portfolio .part:hover img{
+
+    transform: scale(1.2, 1.2);
+
+}
+
+
+
+#portfolio .part h4{
+    font-size: 20px;
+}
+
+.part .ico{
+    border: 2px solid #0078ff;
+
+}
+.part .part-inf{
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#info {
+    background-attachment: fixed;
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size: cover;
+}
+#info .overlay3{
+    background-color: #007bffad;
+}
+
+.capt h2{
+    font-size: 22px;
+    color: #fff;
+}
+.capt p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.capt .icnn{
+    color: #0078ff;
+    background-color:#fff ;
+    border: 2px #fff solid;
+    padding: 10px;
+
+}
+
+
+#blog{
+    background-color: #f8f9fa;
+}
+
+#blog .text5 h1{
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+.text5 p{
+    position: relative;
+}
+
+.text5 p::before{
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color:#0078ff;
+    position: absolute;
+    top: 155%;
+    left: 49%;
+
+}
+
+#blog .content5{
+    background-color: #fff;
+    box-shadow: 0 13px 5px -15px #4e4e4e;
+
+}
+
+.content5 .post-img{
+    position: relative;
+}
+.content5 .post-img span{
+    position: absolute;
+    color: #fff;
+
+    background-color: #0078ff;
+    font-size: 12px ;
+    top: 94%;
+    left: 36%;
+
+}
+@media (max-width:900px){
+    .content5 .post-img span{
+        left: 210px;
+    }
+}
+
+.tests .texts a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 1s;
+
+
+}
+.tests .texts a:hover{
+    color: #0078ff;
+
+}
+.tests .texts p{
+    color: #4e4e4e;
+
+}
+
+.bot{
+    background-color: #f5f5f5;
+
+}
+
+.content5 .bot a{
+    transition: all 0.5s;
+    text-decoration-style: none;
+    color: black;
+}
+
+.content5 .bot img{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.content5 .bot a:hover{
+    color: #0078ff;
+    text-decoration: none;
+}
+
+#message{
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#message .overlay7{
+    background-color: #007bffa2;
+    overflow: auto;
+}
+
+.mess{
+    background-color: #fff;
+}
+
+
+.mess1 h1{
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+}
+
+.mess1 h1::after{
+    content: "";
+    width: 30%;
+    height: 3px;
+    background-color: #0078ff;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+.mess1 form textarea{
+    width: 100%;
+} 
+
+.mess1 form .btn{
+    box-shadow: 0 0 8px gray;
+}
+
+.mess-inf h1{
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+}
+
+.mess-inf h1::after{
+    content: "";
+    width: 30%;
+    height: 3px;
+    background-color: #0078ff;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+
+.mess-inf p{
+    font-size: 20px; 
+    color: #4e4e4e;
+    font-weight: 300;
+}
+
+.mess-inf ul{
+    list-style: none;
+    padding-left: 0%;
+}
+
+
+.mess-inf .fas{
+    color: #0078ff;
+}
+@media (max-width:900px){
+    .mess-inf{
+        padding-left: 48px;
+    }
+}
+
+.mess-inf .socials .soci{
+    border: 3px #0078ff solid;
+    padding: 12px;
+    color: black;
+    transition: all 0.5s;
+}
+
+
+.mess-inf .socials .soci:hover{
+    box-shadow: 0 0 0 4px #cde1f8;
+    background-color: #0078ff;
+    color: white;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    
+}
+.foot a:hover{
+    color: brown;
+}
+
+.foot p span{
+
+    font-weight: 700;
+
+}
